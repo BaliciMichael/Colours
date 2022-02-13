@@ -47,7 +47,7 @@ fun main(args: Array<String>){
 
     println("--------------------------------------------------------------")
     println("True or false, is blue in the list: ")
-    print(colours.isColourInTheList("blue"))
+    println(colours.isColourInTheList("blue"))
     println("--------------------------------------------------------------")
     println("The list of colours, each printed on a new line is:")
     //TODO Write Code here (below this comment) to print the list in this format:
