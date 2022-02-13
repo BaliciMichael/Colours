@@ -28,8 +28,8 @@ fun main(args: Array<String>){
     println("${colours.firstColour()} is the first colour in the list")
 
 
-    println("___ is the last colour in the list")
-    println(colours.lastColour())
+    println("${colours.lastColour()} is the last colour in the list")
+
 
     println("Sorted list is: ")
     println(colours.coloursInAplhabeticOrder())
