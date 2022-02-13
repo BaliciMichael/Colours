@@ -28,11 +28,12 @@ class Colours {
     fun coloursInAplhabeticOrder() : List<String>{
         //TODO return the colours in alphabetical order
         return listOf("this should return colours in alphabetic order")
+
     }
 
     fun coloursInAllCapitals() : List<String>{
         //TODO return the colours in ALL CAPS
-        return listOf("this should return colours in all capitals")
+        return listOf(colours.toString().uppercase())
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{

@@ -21,34 +21,34 @@ fun main(args: Array<String>){
     //     here, maybe add breaks, lines, tabs, dividers, etc, whatever you think for making it nicer / easier to read.
     print("The list is: ")
     println(colours.getAll())
-
+    println("--------------------------------------------------------------")
     println("this list contains ${colours.numberOfColours()} elements")
-
+    println("--------------------------------------------------------------")
 
     println("${colours.firstColour()} is the first colour in the list")
-
+    println("--------------------------------------------------------------")
 
     println("${colours.lastColour()} is the last colour in the list")
-
+    println("--------------------------------------------------------------")
 
     println("Sorted list is: ")
     println(colours.coloursInAplhabeticOrder())
-
-    println("CAPITALISED list is:")
+    println("--------------------------------------------------------------")
+    print("CAPITALISED list is: ")
     println(colours.coloursInAllCapitals())
-
+    println("--------------------------------------------------------------")
     println("Colours starting with specific letter ___ [ B was chosen ]")
     println(colours.coloursStartingWithLetter('B'))
-
+    println("--------------------------------------------------------------")
     println("Colours with a specific number of chars ___ [ 6 was chosen]")
     println(colours.coloursWithSpecificNumberOfChars(6))
-
+    println("--------------------------------------------------------------")
     println("___ have less than less 6 chars ")
     println (colours.coloursWithLessCharsThan(6))
-
+    println("--------------------------------------------------------------")
     println("True or false, is blue in the list: ")
     print(colours.isColourInTheList("blue"))
-
+    println("--------------------------------------------------------------")
     println("The list of colours, each printed on a new line is:")
     //TODO Write Code here (below this comment) to print the list in this format:
     //    Colour: Red
