@@ -22,29 +22,29 @@ fun main(args: Array<String>){
     print("The list is: ")
     println(colours.getAll())
 
-    print("this list contains ${colours.numberOfColours()} elements")
+    println("this list contains ${colours.numberOfColours()} elements")
 
 
-    print("___ is the first colour in the list")
-    println(colours.firstColour())
+    println("${colours.firstColour()} is the first colour in the list")
 
-    print("___ is the last colour in the list")
-    print(colours.lastColour())
+
+    println("___ is the last colour in the list")
+    println(colours.lastColour())
 
     println("Sorted list is: ")
-    print(colours.coloursInAplhabeticOrder())
+    println(colours.coloursInAplhabeticOrder())
 
-    print("CAPITALISED list is:")
-    print(colours.coloursInAllCapitals())
+    println("CAPITALISED list is:")
+    println(colours.coloursInAllCapitals())
 
     println("Colours starting with specific letter ___ [ B was chosen ]")
-    print(colours.coloursStartingWithLetter('B'))
+    println(colours.coloursStartingWithLetter('B'))
 
-    print("Colours with a specific number of chars ___ [ 6 was chosen]")
+    println("Colours with a specific number of chars ___ [ 6 was chosen]")
     println(colours.coloursWithSpecificNumberOfChars(6))
 
     println("___ have less than less 6 chars ")
-    print (colours.coloursWithLessCharsThan(6))
+    println (colours.coloursWithLessCharsThan(6))
 
     println("True or false, is blue in the list: ")
     print(colours.isColourInTheList("blue"))
