@@ -40,7 +40,7 @@ fun main(args: Array<String>){
     println("Colours starting with specific letter B")
     println(colours.coloursStartingWithLetter('B'))
     println("--------------------------------------------------------------")
-    println("Colours with a specific number of chars ___ [ 6 was chosen]")
+    println("Colours with a specific number of chars 6")
     println(colours.coloursWithSpecificNumberOfChars(6))
     println("--------------------------------------------------------------")
     println("___ have less than less 6 chars ")
