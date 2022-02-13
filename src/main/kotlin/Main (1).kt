@@ -50,11 +50,9 @@ fun main(args: Array<String>){
     println(colours.isColourInTheList("blue"))
     println("--------------------------------------------------------------")
     println("The list of colours, each printed on a new line is:")
-    //TODO Write Code here (below this comment) to print the list in this format:
-    //    Colour: Red
-    //    Colour: Orange
-    //    ...
-    //    Colour: Silver
+    println(colours.eachColor())
+
+
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
