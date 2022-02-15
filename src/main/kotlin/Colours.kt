@@ -71,4 +71,18 @@ class Colours {
     //TODO Write THREE additional functions of your choice that will perform some sort of
     // analysis on the colours list.
 
+    fun reversedAlphabetical() : List<String>{
+        return coloursInAplhabeticOrder().reversed()
+    }
+
+    fun primaryColors(): Boolean {
+        if (colours.contains("Red") && colours.contains("Green") && colours.contains("Blue")){
+            return true
+        }
+        return false
+    }
+
+    fun listMaths(number: Int): Int {
+        return colours.size-number
+    }
 }

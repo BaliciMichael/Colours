@@ -51,8 +51,12 @@ fun main(args: Array<String>){
     println("--------------------------------------------------------------")
     println("The list of colours, each printed on a new line is:")
     println(colours.eachColor())
-
-
+    println("--------------------------------------------------------------")
+    println(colours.reversedAlphabetical())
+    println("--------------------------------------------------------------")
+    println(colours.primaryColors())
+    println("--------------------------------------------------------------")
+    println("If you take away 6 elements from the list you would be left with ${colours.listMaths(6)} elements")
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
 
